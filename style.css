@@ -1,0 +1,489 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.sectiones{
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio{
+    margin-top: 20px;
+    height: 400px;
+    background-image: linear-gradient(0,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+    ),url(backgroundInicio.avif);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio-h{
+    font-size: 2em;
+}
+
+.inicio-h1{
+    font-size: 2.4em;
+}
+
+.programador{
+    margin-top: 20px;
+    background-color: #000;
+    padding: 10px 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(168, 35, 209);
+}
+
+#sobreMi{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 2.3em;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.textAbout{
+    margin: 0 25px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #626262;
+    text-align: justify;
+}
+
+.container-dato{
+    margin: 39px 0;
+
+}
+
+.nombre, .email, .numero, .cumple, .nacionalidad{
+    display: flex;
+    margin-left: 35px;
+    font-size: 1.1em;
+    color: #626262;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.raya{
+    height: 1px;
+    margin: 0 35px;
+    background-color: #626262;
+}
+
+.nombre .margin{
+    margin-left: 70px;
+}
+
+.email .margin{
+    margin-left: 88px;
+}
+
+.numero .margin{
+    margin-left: 60px;
+}
+
+.cumple .margin{
+    margin-left: 40px;
+}
+
+.nacionalidad .margin{
+    margin-left: 37px;
+}
+
+.descargar{
+    height: 50px;
+    width: 200px;
+    margin: 50px 30px;
+    font-size: 1.1em;
+    border: 2px solid #000;
+    outline: none;
+    background-color: #000;
+    transition: all 0.5s;
+}
+
+.descargar a {
+    color: #fff;
+}
+
+.descargar:hover{
+    background-color: #fff;
+}
+
+.descargar:hover > a {
+    color: #000;
+}
+
+#skills{
+    background-color: #000;
+}
+
+.h1-skills{
+    color: #fff;
+    font-size: 2.3em;
+    margin-left: 54px;
+    margin-top: 40px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.item{
+    background-color: #fff;
+    width: 50%;
+    height: 230px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.item:hover{
+    width: 60%;
+    height: 290px;
+    box-shadow: 0 0 16px rgb(35, 209, 142);
+}
+
+.item img{
+    height: 100px;
+    width: 100px;
+}
+
+.item p{
+    margin-top: 19px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.h1-porta{
+    font-size: 2.3em;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.primerproyecto{
+    background-image: url(foto-primerProyecto.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    margin: 60px 50px;
+    height: 400px;
+}
+
+.text{
+    background-color: rgba(255,255,255,0.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 600;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.text a{
+    color: #000;
+}
+
+.primerproyecto:hover > .text{
+    opacity: 1;
+}
+
+.primerproyecto:hover{
+    transform: scale(1.1);
+}
+
+.tec-list img{
+    height: 40px;
+    margin: 20px;
+}
+
+.img{
+    height: 250px;
+    border-radius: 10px;
+}
+
+.segundoproyecto{
+    background-image: url(foto-segundoProyecto.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    margin: 60px 50px;
+    height: 400px;
+}
+
+.segundoproyecto:hover > .text{
+    opacity: 1;
+}
+
+.segundoproyecto:hover{
+    transform: scale(1.1);
+}
+
+#contactame{
+    border-top: 1px solid #626262;
+}
+
+.h1-contactame{
+    text-align: center;
+    font-size: 1.9em;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #626262;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    margin: 40px 0;
+}
+
+.items svg{
+    align-self: center;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items p{
+    margin: 10px 100px;
+    text-align: center;
+}
+
+.usuario, .correo, .mensaje{
+    border: 2px solid #a1a1a1;
+    outline: none;
+    height: 50px;
+    width: 430px;
+   margin: 10px 30px;
+   padding: 20px;
+   font-size: 1em;
+}
+
+.mensaje{
+    height: 80px;
+}
+
+.enviar{
+    height: 50px;
+    width: 200px;
+    margin: 10px 30px;
+    font-size: 1.1em;
+    border: 2px solid #000;
+    outline: none;
+    background-color: #000;
+    transition: all 0.5s;
+    color: #fff;
+}
+
+.enviar:hover{
+    color: #000;
+    background-color: #fff;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #626262;
+    font-weight: bold;
+}
+
+.list-icon2 svg{
+    margin: 25px 19px;
+}
+
+.icono2{
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        flex-direction: row;;
+    }
+
+    .header{
+        position: fixed;
+    }
+
+    .inicio, #sobreMi, #skills, #Portafolio, #contactame, .footer{
+        margin-left: 300px;
+        width: calc(100vw - 300px);
+    }
+
+    .inicio{
+        height: 700px;
+        margin-top: 0;
+    }
+
+    .inicio-h{
+        font-size: 2.8em;
+        align-self: flex-start;
+        margin-left: 120px;
+    }
+    .inicio-h1{
+        font-size: 3.8em;
+        align-self: flex-start;
+        margin-left: 120px;
+        font-weight: 900;
+    }
+
+    .programador{
+        align-self: flex-start;
+        margin-left: 120px;
+        height: 50px;
+        width: 340px;
+        text-align: start;
+    }
+
+    #sobreMi{
+        height: 700px;
+        background-image: url(backgroundsobremi.avif);
+        background-size: cover;
+        position: relative;
+        z-index: 0;
+    }
+
+
+    .container-dato, .textos{
+        position: relative;
+        z-index: 2;
+        width: 600px;
+    }
+
+    .blanco{
+        height: 100%;
+        width: 600px;
+        position: absolute;
+        margin-left: 0;
+        z-index: 0;
+        background-color: #fff;
+    }
+
+    #skills{
+        height: 700px;
+        background-image: linear-gradient(
+            0,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(backgroundSkill.avif);
+        background-size: cover;
+    }
+
+    .h1-skills{
+    font-size: 3em;
+    }
+
+    .flex-container{
+        width: calc(100vw - 300px);
+        height: 500px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .item:hover{
+        height: 200px;
+        width: 200px;
+        transform: scale(1.2);
+    }
+
+    .item{
+        height: 200px;
+        width: 200px;
+    }
+
+    #Portafolio{
+        height: 700px;
+        background-image: linear-gradient(
+            0,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url(backgroundproyecto.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #contactame{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .h1-porta{
+        font-size: 4em;
+        color: #fff;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+     .primerproyecto , .segundoproyecto{
+        height: 400px;
+        width: 400px;
+     }
+
+     .h1-contactame{
+        font-size: 3em;
+     }
+
+     .container{
+        flex-direction: row;
+     }
+
+     .footer{
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #000;
+        color: #fff;
+     }
+
+     .list-icon2 svg{
+        color: #fff;
+     }
+}
