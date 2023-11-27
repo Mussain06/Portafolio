@@ -351,7 +351,7 @@ body{
     }
 
     .inicio{
-        height: 900px;
+        height: 920px;
         margin-top: 0;
     }
 
@@ -376,7 +376,7 @@ body{
     }
 
     #sobreMi{
-        height: 900px;
+        height: 920px;
         background-image: url(backgroundsobremi.avif);
         background-size: cover;
         position: relative;
@@ -404,7 +404,7 @@ body{
     }
 
     #skills{
-        height: 900px;
+        height: 920px;
         background-image: linear-gradient(
             0,
             rgba(0,0,0,0.5),
@@ -438,7 +438,7 @@ body{
     }
 
     #Portafolio{
-        height: 900px;
+        height: 920px;
         background-image: linear-gradient(
             0,
             rgba(0,0,0,0.5),
@@ -452,7 +452,7 @@ body{
     }
 
     #contactame{
-        height: 900px;
+        height: 920px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
