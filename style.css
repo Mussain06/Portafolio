@@ -69,7 +69,7 @@ body{
 
 .container-dato{
     margin: 39px 0;
-
+    font-size: 0.8em;
 }
 
 .nombre, .email, .numero, .cumple, .nacionalidad{
@@ -294,6 +294,7 @@ body{
    margin: 10px 30px;
    padding: 20px;
    font-size: 1em;
+   width: 300px;
 }
 
 .mensaje{
@@ -350,7 +351,7 @@ body{
     }
 
     .inicio{
-        height: 700px;
+        height: 900px;
         margin-top: 0;
     }
 
@@ -375,7 +376,7 @@ body{
     }
 
     #sobreMi{
-        height: 700px;
+        height: 900px;
         background-image: url(backgroundsobremi.avif);
         background-size: cover;
         position: relative;
@@ -399,7 +400,7 @@ body{
     }
 
     #skills{
-        height: 700px;
+        height: 900px;
         background-image: linear-gradient(
             0,
             rgba(0,0,0,0.5),
@@ -433,7 +434,7 @@ body{
     }
 
     #Portafolio{
-        height: 700px;
+        height: 900px;
         background-image: linear-gradient(
             0,
             rgba(0,0,0,0.5),
@@ -447,7 +448,7 @@ body{
     }
 
     #contactame{
-        height: 800px;
+        height: 900px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
