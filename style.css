@@ -244,6 +244,24 @@ body{
     transform: scale(1.1);
 }
 
+
+.tercerproyecto{
+    background-image: url(foto-tercerproyecto.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    margin: 60px 50px;
+    height: 400px;
+}
+
+.tercerproyecto:hover > .text{
+    opacity: 1;
+}
+
+.tercerproyecto:hover{
+    transform: scale(1.1);
+}
+
 #contactame{
     border-top: 1px solid #626262;
 }
@@ -467,7 +485,7 @@ body{
         justify-content: space-evenly;
     }
 
-     .primerproyecto , .segundoproyecto{
+     .primerproyecto , .segundoproyecto, .tercerproyecto{
         height: 400px;
         width: 400px;
      }
