@@ -263,7 +263,7 @@ body{
 }
 
 .cuartoproyecto{
-    background-image: url(Captura de pantalla 2026-01-30 204620.png);
+    background-image: url(trabajoUni.png);
     background-size: cover;
     background-position: center;
     transition: all 1s;
@@ -528,4 +528,5 @@ body{
         color: #fff;
      }
 }
+
 
