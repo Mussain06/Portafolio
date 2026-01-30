@@ -262,6 +262,22 @@ body{
     transform: scale(1.1);
 }
 
+.cuartoproyecto{
+    background-image: url(Captura de pantalla 2026-01-30 204620.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    margin: 60px 50px;
+    height: 400px;
+}
+.cuartoproyecto:hover > .text{
+    opacity: 1;
+}
+
+.cuartoproyecto:hover{
+    transform: scale(1.1);
+}
+
 #contactame{
     border-top: 1px solid #626262;
 }
@@ -512,3 +528,4 @@ body{
         color: #fff;
      }
 }
+
