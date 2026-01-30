@@ -501,8 +501,8 @@ body{
         justify-content: space-evenly;
     }
 
-     .primerproyecto , .segundoproyecto, .tercerproyecto{
-        height: 400px;
+     .primerproyecto , .segundoproyecto, .tercerproyecto, .cuartoproyecto{
+        height: 300px;
         width: 400px;
      }
 
@@ -528,5 +528,6 @@ body{
         color: #fff;
      }
 }
+
 
 
